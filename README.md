@@ -24,8 +24,8 @@ The tool provides value to Minecraft enthusiasts and technical builders by gener
 ## Installation & Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/rahul-s/block-architect.git
-   cd block-architect
+   git clone https://github.com/rahulcvwebsitehosting/MinecraftAiBuilder.git
+   cd MinecraftAiBuilder
    ```
 
 2. Install dependencies:
