@@ -2,40 +2,26 @@
 A natural language interface for procedural Minecraft architecture and automated structure generation.
 
 ## Description
-Block Architect is a web-based utility designed to bridge the gap between conceptual architectural design and in-game implementation within Minecraft. The application allows users to describe complex structures using natural language and transforms those descriptions into precise voxel models.
+Block Architect is a technical utility designed to transform conceptual descriptions into precise Minecraft voxel models. The application addresses the planning barrier often encountered in large-scale building projects by automating the translation of architectural intent into technical data.
 
-By leveraging advanced structural reasoning, the tool generates a technical blueprint that includes 3D visualizations, comprehensive material manifests, and executable Minecraft function scripts. It serves as a primary resource for builders who want to streamline the planning phase of large-scale projects or automate the placement of complex geometries.
+The tool provides value to Minecraft enthusiasts and technical builders by generating structural blueprints that include 3D visualizations, comprehensive material manifests, and executable function scripts. It streamlines the workflow from design to in-game implementation.
 
 ## Features
-* Natural Language Processing: Converts descriptive prompts into structured architectural data.
-* Voxel Preview Engine: A dedicated 3D renderer for inspecting generated models, including a 2D compatibility mode for restricted environments.
-* Material Manifest: Automatic calculation of required resources, including total block counts and inventory stack requirements.
-* Procedural Build Tutorials: Step-by-step instructions for manual construction, categorized by build phases.
-* Automated Export: Generation of Minecraft Datapack functions (.mcfunction) for direct in-game structure instantiation.
-* Iterative Adjustment: Refine existing designs through follow-up prompts to modify materials, scale, or specific features.
+* Natural Language Translation: Converts descriptive architectural prompts into structured voxel data.
+* Dual-Mode Visualization: Features a dedicated 3D WebGL renderer and a fallback 2D blueprint engine for model inspection.
+* Material Logistics: Automatically calculates required resources, including total block counts and inventory stack requirements.
+* Procedural Construction Guides: Generates step-by-step build phases with coordinate-specific instructions for manual construction.
+* Scripted Automation: Produces Minecraft function files (.mcfunction) for direct structure instantiation via datapacks.
+* Iterative Design: Allows for real-time adjustments to existing models through refinement prompts.
 
 ## Tech Stack
-* Frontend: React 19, TypeScript
+* Frontend Framework: React 19
+* Language: TypeScript
 * Styling: Tailwind CSS
-* 3D Rendering: Three.js (WebGL)
-* Voxel Logic: Custom procedural engine
-* Core Logic: Large Language Model (Architectural Reasoning)
-
-## Live Demo
-🔗 Live Demo: https://rahul-s.github.io/block-architect/
-
-## Screenshots
-[Placeholder for application interface screenshot]
-[Placeholder for 3D voxel preview screenshot]
-[Placeholder for material manifest screenshot]
+* 3D Graphics: Three.js (WebGL)
+* Core Logic: Large Language Model integration for architectural reasoning and structural optimization.
 
 ## Installation & Setup
-### Prerequisites
-* Node.js (Latest LTS version recommended)
-* NPM or Yarn
-* A valid API Key for structural generation
-
-### Local Development
 1. Clone the repository:
    ```bash
    git clone https://github.com/rahul-s/block-architect.git
@@ -48,9 +34,9 @@ By leveraging advanced structural reasoning, the tool generates a technical blue
    ```
 
 3. Environment Configuration:
-   Create a .env file in the root directory and add your API key:
+   Create a .env file in the root directory and define your API key:
    ```env
-   API_KEY=your_api_key_here
+   API_KEY=your_technical_api_key
    ```
 
 4. Run the application:
@@ -59,22 +45,15 @@ By leveraging advanced structural reasoning, the tool generates a technical blue
    ```
 
 ## Usage
-1. Input: Enter a detailed description of a structure in the text area (e.g., "A modern cliffside villa with floor-to-ceiling windows and a quartz foundation").
-2. Technical Review: Use the Technical Review feature to analyze the architectural feasibility and block palette before final generation.
-3. Generation: Execute the generator to produce the 3D model and material list.
-4. Export: Download the generated .mcfunction file and follow the provided installation guide to move the structure into a Minecraft world.
-5. Manual Build: Use the generated tutorial phases to build the structure manually in survival mode if preferred.
+Users interact with the application by entering a structural description into the primary input field. The "Technical Review" phase allows for a pre-generation analysis of the build's feasibility and material palette. Once generated, users can inspect the 3D model, review the material list, and download the automation scripts or build guides for use within the Minecraft environment.
 
 ## Future Improvements
-* Schematic File Export: Support for .schem and .litematic formats to integrate with WorldEdit and Litematica.
-* Multi-Biome Adaptation: Automatic adjustment of material palettes based on specific Minecraft biomes.
-* Interior Logic: Enhanced procedural generation for internal room layouts and furniture.
-* Collaborative Design: Sharing functionality for generated blueprints and material lists.
+* Schematic Format Support: Implementation of .schem and .litematic export functionality for WorldEdit and Litematica integration.
+* Procedural Interior Logic: Enhanced generation of internal room layouts, furniture, and functional spaces.
+* Biome-Aware Palettes: Automated adjustment of construction materials based on specific in-game environmental data.
+* API Integration for Blueprints: A library system for saving and sharing generated architectural specifications.
 
 ## Author
-Name: Rahul S
-Bio: Engineering student and software developer focused on building functional web applications and procedural generation tools.
-GitHub: [https://github.com/rahul-s]
-
-## License
-This project is licensed under the MIT License.
+Rahul S
+Engineering student and software developer focused on building functional web applications and procedural generation tools.
+LinkedIn: https://www.linkedin.com/in/rahulshyamcivil/
