@@ -1,0 +1,106 @@
+
+export const BLOCK_COLORS: Record<string, string> = {
+  // Stones
+  'minecraft:stone': '#8e8e8e',
+  'minecraft:stone_bricks': '#7b7b7b',
+  'minecraft:cobblestone': '#8b8b8b',
+  'minecraft:andesite': '#848484',
+  'minecraft:polished_andesite': '#848484',
+  'minecraft:diorite': '#efefef',
+  'minecraft:polished_diorite': '#efefef',
+  'minecraft:mossy_stone_bricks': '#6a7b5b',
+  'minecraft:cracked_stone_bricks': '#707070',
+  'minecraft:deepslate': '#4f4f4f',
+  'minecraft:polished_deepslate': '#3a3a3a',
+  'minecraft:deepslate_bricks': '#2d2d2d',
+  'minecraft:deepslate_tiles': '#1f1f1f',
+  'minecraft:smooth_stone': '#9a9a9a',
+  'minecraft:smooth_stone_slab': '#9a9a9a',
+  
+  // Woods
+  'minecraft:oak_planks': '#a57e49',
+  'minecraft:oak_log': '#6b5134',
+  'minecraft:oak_wood': '#6b5134',
+  'minecraft:stripped_oak_log': '#a58e6f',
+  'minecraft:oak_stairs': '#a57e49',
+  'minecraft:oak_slab': '#a57e49',
+  'minecraft:oak_fence': '#a57e49',
+  'minecraft:oak_door': '#a57e49',
+  'minecraft:oak_trapdoor': '#a57e49',
+  
+  'minecraft:spruce_log': '#3d2b1a',
+  'minecraft:spruce_planks': '#533e24',
+  'minecraft:stripped_spruce_log': '#715e4a',
+  'minecraft:spruce_stairs': '#533e24',
+  'minecraft:spruce_slab': '#533e24',
+  'minecraft:spruce_fence': '#533e24',
+  
+  'minecraft:dark_oak_planks': '#3c2e1f',
+  'minecraft:dark_oak_log': '#322617',
+  'minecraft:dark_oak_stairs': '#3c2e1f',
+  'minecraft:dark_oak_slab': '#3c2e1f',
+  
+  'minecraft:birch_planks': '#d7c185',
+  'minecraft:birch_log': '#d7c185',
+  'minecraft:cherry_planks': '#e39d94',
+
+  // Modern & Decor
+  'minecraft:white_concrete': '#cfd5d6',
+  'minecraft:gray_concrete': '#373a3e',
+  'minecraft:black_concrete': '#080a0f',
+  'minecraft:white_wool': '#ffffff',
+  'minecraft:gray_wool': '#3f3f3f',
+  'minecraft:red_wool': '#ff0000',
+  'minecraft:blue_wool': '#0000ff',
+  'minecraft:yellow_wool': '#ffff00',
+  'minecraft:cyan_wool': '#008b8b',
+  'minecraft:quartz_block': '#e5e5e5',
+  'minecraft:smooth_quartz': '#e5e5e5',
+  'minecraft:smooth_quartz_stairs': '#e5e5e5',
+  'minecraft:smooth_quartz_slab': '#e5e5e5',
+  'minecraft:sea_lantern': '#b2cbd2',
+  'minecraft:glowstone': '#f7cc53',
+  'minecraft:lantern': '#ffcc00',
+  'minecraft:soul_lantern': '#00ffff',
+  'minecraft:torch': '#ffd700',
+  'minecraft:glass': '#add8e6',
+  'minecraft:glass_pane': '#add8e6',
+  'minecraft:cyan_stained_glass': '#4c7f99',
+  'minecraft:white_stained_glass_pane': '#ffffff',
+  
+  // Nature
+  'minecraft:grass_block': '#4c994c',
+  'minecraft:dirt': '#8b4513',
+  'minecraft:sand': '#f0e68c',
+  'minecraft:gravel': '#737373',
+  'minecraft:water': '#4169e1',
+  'minecraft:poppy': '#ff0000',
+  'minecraft:blue_orchid': '#add8e6',
+  'minecraft:oak_leaves': '#2d4c1e',
+  'minecraft:spruce_leaves': '#223823',
+  'minecraft:azalea_leaves': '#5a802b',
+  
+  // Functional
+  'minecraft:chest': '#8b4513',
+  'minecraft:crafting_table': '#4a2c11',
+  'minecraft:furnace': '#4b4b4b',
+  'minecraft:blast_furnace': '#4b4b4b',
+  'minecraft:smoker': '#4b4b4b',
+  'minecraft:barrel': '#84623a',
+  'minecraft:bookshelf': '#705130',
+  'minecraft:white_bed': '#ffffff',
+  'minecraft:red_bed': '#ff0000',
+  'minecraft:cauldron': '#3c3c3c',
+  'minecraft:iron_bars': '#8c8e8d',
+  'minecraft:brewing_stand': '#d07b44',
+  'minecraft:lectern': '#9e7a4f',
+  'minecraft:flower_pot': '#7b4c3b'
+};
+
+export const EXAMPLE_PROMPTS = [
+  "A luxurious modern L-villa with massive windows, an infinity pool, and white concrete walls",
+  "A multi-room medieval manor featuring a great hall, library, and stone fortifications",
+  "A cozy wizard's tower with spiraling wood stairs and potion brewing rooms",
+  "A futuristic moon base with airlocks, glowing labs, and landing pads",
+  "A classic Japanese garden temple with a red roof and serene koi pond"
+];

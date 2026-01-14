@@ -1,0 +1,5 @@
+{
+  "name": "AI Minecraft Structure Builder",
+  "description": "Transform natural language descriptions into game-ready Minecraft structures. Generate blueprints, preview in 3D, and get material lists for your next big build.",
+  "requestFramePermissions": []
+}
